@@ -3,7 +3,15 @@ import './Button.css'
 const Button = () => {
 	return (
 		<>
-			<button className='ccBtn'>Click Me!</button>
+			<div className='container'>
+				<button className='ccBtn'>Default</button>
+				<button
+					className='ccBtn'
+					disabled
+				>
+					Disabled
+				</button>
+			</div>
 		</>
 	)
 }
